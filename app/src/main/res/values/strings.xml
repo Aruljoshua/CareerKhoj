@@ -1,0 +1,378 @@
+<resources>
+    <!-- Damru's Strings-->
+    <string name="app_name">My Saved</string>
+    <string name="my_saved">My Saved</string>
+    <string name="tv_allsaved">All Saved</string>
+    <string name="tv_count">1</string>
+    <string name="tv_job">Software Engineer</string>
+    <string name="tv_time">Full-time</string>
+    <string name="tv_location">Malabe,Colombo</string>
+    <string name="tv_title">My Saved Jobs</string>
+    <string name="et_name_reg">Enter Name</string>
+    <string name="tv_Register">Register</string>
+    <string name="et_email_reg">Enter Email</string>
+    <string name="tv_spinnerD">Enter District</string>
+    <string name="tv_city">Enter City</string>
+
+    <string name="et_mobile">Enter Mobile Number</string>
+    <string name="et_password">Enter Password</string>
+    <string name="btn_acCeate">Create Account</string>
+    <string name="tv_req_job_title">Request job title</string>
+    <string name="tv_name">Name</string>
+
+    <string name="tv_genderreqjob">Gender</string>
+    <string name="tv_DescriptionReq">Description</string>
+    <string name="btn_sendmail_reqjob">Email Me</string>
+    <string name="btn_call_reqjob">Call Me</string>
+    <string name="jobtitle">Jobtitle</string>
+    <string name="tv_location_job">location</string>
+    <string name="tv_jobtype_vjob">Job Type</string>
+    <string name="tv_company_jv">Company</string>
+    <string name="tv_salary_jv">Salary</string>
+    <string name="tv_description_jobv">Description</string>
+    <string name="tv_requiremnts_jv">Requirements</string>
+    <string name="tv_publishdate">"Publish Date : "</string>
+    <string name="tv_publishdate1">Publish Date</string>
+    <string name="tv_email_jv">Email</string>
+    <string name="btn_sendemail_jv">Send Email</string>
+    <string name="btn_call_jv">Call</string>
+    <string name="btn_email_jv">Send Email</string>
+    <string name="tv_editjobc">Edit Job</string>
+    <string name="et_name_editjob">Job title you want to request</string>
+    <string name="et_name_editjob1">Name</string>
+    <string name="et_age_editjob">Age</string>
+    <string name="et_gender_editjob">Gender</string>
+    <string name="et_description_editjob">Description</string>
+    <string name="et_qualifications_editjob">Qualifications</string>
+    <string name="et_email_editjob">Email</string>
+    <string name="et_phone_editjob">Phone Number</string>
+    <string name="btn_editjob">Edit</string>
+    <string name="tv_job2">Software Engineer</string>
+    <string name="tv_time2">Full Time</string>
+    <string name="tv_location2">Malabe,Colombo</string>
+    <string name="tv_job3">Graphic Design</string>
+    <string name="tv_job4">.NET Engineer</string>
+    <string name="tv_time3">Part time</string>
+    <string name="tv_time4">Full Time</string>
+
+
+    <!-- Amila's Strings-->
+
+    <string name="tv_createajob">Create a Job</string>
+    <string name="et_company">Enter Company Name</string>
+    <string name="et_title">Enter Job Title</string>
+    <string name="et_salary2">Enter Salary (LKR | MO)</string>
+    <string name="et_description">Enter Job Description</string>
+    <string name="et_email">Enter Email Address</string>
+    <string name="et_phone">Enter Phone Number</string>
+    <string name="tv_addimg">Add Image</string>
+    <string name="btn_create">Create</string>
+    <string name="requiredd">Image Can not be Edited!!!</string>
+
+    <string name="tv_editjob">Edit Job</string>
+    <string name="et_companyed">Enter Company Name</string>
+    <string name="et_titleed">Enter Job Title</string>
+    <string name="et_salaryed">Enter Salary</string>
+    <string name="et_descriptioned">Enter Job Description</string>
+    <string name="et_emailed">Enter Email Address</string>
+    <string name="et_phoneed">Enter Phone Number</string>
+    <string name="tv_addimged">Add Image</string>
+    <string name="btn_edit">Edit</string>
+    <string name="tv_mjl1">My Job Listings</string>
+    <string name="btn_cn">Create New</string>
+    <string name="tv_mrjl">My Requested Jobs</string>
+    <string name="btn_newreq">New Request</string>
+
+    <string name="phone6">Phone</string>
+    <string name="title8">Title</string>
+
+    <string-array name="job_type_sm">
+        <item> Select Job Type</item>
+        <item> Full Time</item>
+        <item> Part Time</item>
+        <item> Intern</item>
+    </string-array>
+
+    <string-array name="job_type_ddm">
+        <item> Select Job Type</item>
+        <item> Full Time</item>
+        <item> Part Time</item>
+        <item> Intern</item>
+    </string-array>
+
+    <string-array name="districts_sm">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Lakshadweep</item>
+        <item>Delhi</item>
+        <item>Puducherry</item>
+    </string-array>
+
+    <string-array name="genderR">
+        <item>Enter Gender</item>
+        <item> Male</item>
+        <item> Female</item>
+    </string-array>
+
+    <string-array name="districts_smm">
+        <item> Select State</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Lakshadweep</item>
+        <item>Delhi</item>
+        <item>Puducherry</item>
+    </string-array>
+
+    <!-- Amila's Strings-->
+
+    <string name="tv_location3">Keselwatta,Panadura</string>
+    <string name="tv_job5">HR.Intern</string>
+    <string name="tv_time5">Full Time</string>
+    <string name="tv_location4">Horethuduwa,Moratuwa</string>
+    <string name="tv_location5">Kaluwella,Galle</string>
+    <string name="tv_title2">Requested Jods</string>
+    <string name="btn_rq_jobs">Request a job</string>
+    <string name="tv_job6">Iam open to work as a full stack developer</string>
+    <string name="tv_gender">Male</string>
+    <string name="tv_age">28 years old</string>
+    <string name="tv_job7">I am looking for software engineering job </string>
+    <string name="tv_gender2">Female</string>
+    <string name="tv_age2">27 years old</string>
+    <string name="tv_job8">Searching for a graphic designer job</string>
+    <string name="tv_age3">24 years old</string>
+    <string name="img_company1">picture of Company1</string>
+    <string name="img_company2">picture of company2</string>
+    <string name="img_company3">picture of company3</string>
+    <string name="img_company4">picture of company4</string>
+
+
+    <string-array name="testspin">
+        <item>--Select City Area--</item>
+        <item>-- City Area--</item>
+        <item>-- Area--</item>
+    </string-array>
+
+    <string-array name="districts">
+        <item>Select a state</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Lakshadweep</item>
+        <item>Delhi</item>
+        <item>Puducherry</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+
+    <!--    Pankaja's Strings-->
+
+    <string name="tv_sign_in">Sign In</string>
+    <string name="et_log_email">Email</string>
+    <string name="et_log_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="tv_fgt_password">Forget Password?</string>
+
+    <string name="tv_request_job">Request a Job</string>
+    <string name="et_request_job">Enter the Job title you want to request</string>
+    <string name="et_nameR">Enter Name</string>
+    <string name="et_ageR">Enter Age</string>
+    <string name="et_descriptionR">Enter Description about yourself</string>
+    <string name="et_emailR">Enter Email Address</string>
+    <string name="et_phone_noR">Enter Phone No</string>
+    <string name="tv_add_image">Add Image</string>
+    <string name="btn_createR">Create</string>
+
+    <string name="btn_nav_login">Login</string>
+    <string name="btn_nav_logout">logout</string>
+    <string name="tv_nav_home">Home</string>
+    <string name="tv_nav_myjobs">My Job Listing</string>
+    <string name="tv_nav_savedjobs">Saved Jobs</string>
+    <string name="tv_nav_requestedjobs">Requested Jobs</string>
+    <string name="tv_nav_myreqjobs">My Requested Jobs</string>
+    <string name="tv_nav_savedreqjobs">Saved Requested Jobs</string>
+    <string name="tv_nav_profile">Profile</string>
+
+    <string name="tv_Profile">Profile</string>
+    <string name="btn_verify_now">Verify Now</string>
+    <string name="tv_nameP">Name :</string>
+    <string name="tv_mobilenoP">Mobile No :</string>
+    <string name="tv_genderP">Gender :</string>
+    <string name="tv_districtP">District :</string>
+    <string name="tv_emailP">Email :</string>
+    <string name="btn_edit_user">Edit</string>
+
+    <string name="tv_edit_profile">Edit Profile</string>
+    <string name="tv_nameE">Name</string>
+    <string name="tv_mobilenoE">Mobile No</string>
+    <string name="tv_GenderE">Gender</string>
+    <string name="tv_districtE">District</string>
+    <string name="tv_emailE">Email</string>
+    <string name="et_user_name">Name</string>
+    <string name="et_user_Mno">Mobile No</string>
+    <string name="et_user_email">Email</string>
+    <string name="btn_updateE">Update</string>
+
+    <string name="d_tv_jobtype">Jobtype</string>
+    <string name="d_tv_joblocation">location</string>
+    <string name="tv_reqtitle">Saved Request Jon</string>
+    <string name="tv_reqtitle2">Saved Requested Jobs</string>
+    <string name="tv_allreqjob">All Requested</string>
+    <string name="d_tv_reqjobage2">0</string>
+    <string name="d_yearsold">Years Old</string>
+    <string name="d_tv_reqjobgender2">Gender</string>
+    <string name="tv_editReqjob">Edit Requested Job</string>
+    <string name="tv_editjobreq">Edit Requested Job</string>
+    <string name="et_gender_editjobReq">Gender</string>
+    <string name="btn_editjobreq">Edit</string>
+
+    <string name="tv_requested_jobtitle">Requested Job Title</string>
+
+    <string name="d_findjobs">Find Your Jobs</string>
+    <string name="d_findemployees">Find Your Employees</string>
+
+
+
+    <string-array name="districts_vp">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Lakshadweep</item>
+        <item>Delhi</item>
+        <item>Puducherry</item>
+    </string-array>
+
+    <string-array name="gender_vp">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!--    Pankaja's Strings-->
+
+
+</resources>
+
+

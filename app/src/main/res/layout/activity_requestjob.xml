@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".RequestJob">
+
+    <TextView
+        android:id="@+id/tv_request_job"
+        android:layout_width="184dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tv_request_job"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/backimgR"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/backimgR"
+        android:layout_width="23dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:id="@+id/requiredd2"
+        android:layout_width="105dp"
+        android:layout_height="39dp"
+
+
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="110dp"
+        android:hint="@string/requiredd"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+
+        android:textColorHint="#F33B3B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toEndOf="@+id/image_add_imageR"
+        app:layout_constraintTop_toBottomOf="@+id/et_phone_noR"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <EditText
+        android:id="@+id/et_descriptionR"
+        android:layout_width="324dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:hint="@string/et_descriptionR"
+        android:inputType="textMultiLine"
+        android:paddingStart="15dp"
+        android:textColor="#FF4C4C4C"
+        android:textColorHint="#FF4C4C4C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_genderR"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_job_title"
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:hint="@string/et_request_job"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#FF4C4C4C"
+        android:textColorHint="#FF4C4C4C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_nameR"
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:hint="@string/et_nameR"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#FF4C4C4C"
+        android:textColorHint="#FF4C4C4C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_job_title"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_ageR"
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:hint="@string/et_ageR"
+        android:inputType="number|textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#FF4C4C4C"
+        android:textColorHint="#FF4C4C4C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nameR"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner_genderR"
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/border2"
+        android:entries="@array/genderR"
+        android:paddingStart="8dp"
+        android:paddingTop="7dp"
+        android:paddingEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_ageR"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView_jobtype2"
+        android:layout_width="14dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_genderR"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_genderR"
+        app:layout_constraintTop_toTopOf="@+id/spinner_genderR"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/drop_down"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/et_emailR"
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:hint="@string/et_emailR"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#FF4C4C4C"
+        android:textColorHint="#FF4C4C4C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_descriptionR"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_phone_noR"
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:hint="@string/et_phone_noR"
+        android:inputType="number|textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#FF4C4C4C"
+        android:textColorHint="#FF4C4C4C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_emailR"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/image_add_imageR"
+        android:layout_width="114dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_createR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_phone_noR"
+        app:layout_constraintVertical_bias="0.085"
+        app:srcCompat="@drawable/baseline_add_circle_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/tv_add_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="144dp"
+        android:text="@string/tv_add_image"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/image_add_imageR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_phone_noR"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_createR"
+        android:layout_width="112dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/border2"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="@string/btn_create"
+        android:paddingTop="0dp"
+        android:textColorHint="#FFFFFF"
+        app:backgroundTint="#477EEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_add_imageR"
+        tools:ignore="MissingConstraints" />
+
+    <ProgressBar
+        android:id="@+id/progressBarR"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/image_add_imageR"
+        app:layout_constraintEnd_toEndOf="@+id/image_add_imageR"
+        app:layout_constraintStart_toStartOf="@+id/image_add_imageR"
+        app:layout_constraintTop_toTopOf="@+id/image_add_imageR" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
